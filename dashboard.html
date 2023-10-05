@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        /* Additional CSS to arrange buttons horizontally and center them */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        #button-container {
+            display: flex;
+            flex-direction: row; /* Arrange buttons horizontally */
+            gap: 10px; /* Add some space between buttons */
+        }
+
+        .btn {
+            margin: 10px;
+        }
+    </style>
+    <title>Dashboard - Student Financial Management</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Dashboard</h1>
+    </header>
+    <div id="button-container">
+        <a href="transaction.html" class="btn">View Transactions</a>
+        <a href="billing.html" class="btn">Access Billing</a>
+        <a href="apply.html" class="btn">Apply for Financial Aid</a>
+        <a href="summary.html" class="btn">View Financial Summary</a>
+    </div>
+    <footer>
+        <p>&copy; 2023 Student Financial Management</p>
+    </footer>
+</body>
+</html>
